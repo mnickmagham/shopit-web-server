@@ -1,0 +1,55 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: shopit-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - shopit
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./shopit-backend
+      dockerfile: Dockerfile
+    container_name: shopit-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./shopit-backend/.env
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/shopit
+      - NODE_ENV=production
+    depends_on:
+      mongodb:
+        condition: service_started
+    networks:
+      - shopit
+    restart: on-failure
+
+  frontend:
+    build:
+      context: ./shopit
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_BASE_URL: http://localhost:5000
+    container_name: shopit-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_BASE_URL=http://localhost:5000
+    depends_on:
+      backend:
+        condition: service_started
+    networks:
+      - shopit
+    restart: on-failure
+
+networks:
+  shopit:
+    driver: bridge
+
+volumes:
+  mongo_data:
