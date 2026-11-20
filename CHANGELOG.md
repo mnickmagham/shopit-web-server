@@ -11,3 +11,7 @@ Add single root-level docker-compose.yml to run frontend, backend, and MongoDB t
 ### Commit: version 0.1.0 date 2026-11-08
 
 Add Docker Compose setup for ShopIt frontend, backend, and MongoDB.
+
+### Commit: version 0.1.1 date 2026-11-09
+
+Add DB seed script with 120 initial products across 12 categories.
