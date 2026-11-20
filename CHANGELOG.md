@@ -1,3 +1,13 @@
+### Change: version 0.1.5 date 2026-11-20
+
+Fix category filter not affecting search results.
+
+- shopit-backend/src/controllers/productsController.ts: category filter now uses case-insensitive exact match so frontend Title-Case values (e.g. "Electronics") match lower-case stored DB values (e.g. "electronics")
+
+### Commit: version 0.1.5 date 2026-11-20
+
+Fix category filter not affecting search results via case-insensitive exact category match.
+
 ### Change: version 0.1.4 date 2026-11-20
 
 Enable hot reload for frontend and backend via Docker Compose.

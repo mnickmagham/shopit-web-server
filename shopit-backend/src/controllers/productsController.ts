@@ -24,7 +24,11 @@ export default async function getProducts(req: Request, res: Response) {
       ];
     }
     if (categoryString && categoryString.trim() !== "") {
-      query.categories = { $in: [categoryString] };
+      // Case-insensitive exact match so Title-Case frontend values (e.g. "Electronics")
+      // match lower-case stored values (e.g. "electronics") regardless of casing.
+      query.categories = {
+        $regex: new RegExp(`^${categoryString.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}$`, "i"),
+      };
     }
     const products = await Product.find(query)
       .skip((pageNumber - 1) * limitNumber)
