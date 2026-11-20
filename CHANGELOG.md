@@ -1,3 +1,16 @@
+### Change: version 0.1.4 date 2026-11-20
+
+Enable hot reload for frontend and backend via Docker Compose.
+
+- shopit/Dockerfile: switched from `next build`+`next start` to `next dev --turbopack --hostname 0.0.0.0`, NODE_ENV=development, CHOKIDAR_USEPOLLING=true
+- shopit-backend/Dockerfile: switched from `tsc build`+`node dist/server.js` to `npm run dev` (nodemon + ts-node), NODE_ENV=development
+- shopit-backend/nodemon.json: added legacyWatch for Windows Docker file watching
+- docker-compose.yml: volume mounts for shopit/ and shopit-backend/ source dirs, CHOKIDAR_USEPOLLING env, NODE_ENV=development
+
+### Commit: version 0.1.4 date 2026-11-20
+
+Enable hot reload via Docker Compose: frontend runs next dev, backend runs nodemon, both with source volume mounts.
+
 ### Change: version 0.1.3 date 2026-11-20
 
 Remove "Project Under Development" banner from all pages.

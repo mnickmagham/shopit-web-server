@@ -21,7 +21,10 @@ services:
       - ./shopit-backend/.env
     environment:
       - MONGO_URI=mongodb://mongodb:27017/shopit
-      - NODE_ENV=production
+      - NODE_ENV=development
+    volumes:
+      - ./shopit-backend/src:/app/src
+      - ./shopit-backend/nodemon.json:/app/nodemon.json
     depends_on:
       mongodb:
         condition: service_started
@@ -40,6 +43,25 @@ services:
       - "3000:3000"
     environment:
       - NEXT_PUBLIC_BASE_URL=http://localhost:5000
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - ./shopit/app:/app/app
+      - ./shopit/components:/app/components
+      - ./shopit/lib:/app/lib
+      - ./shopit/pages:/app/pages
+      - ./shopit/public:/app/public
+      - ./shopit/services:/app/services
+      - ./shopit/store:/app/store
+      - ./shopit/types:/app/types
+      - ./shopit/svg:/app/svg
+      - ./shopit/package.json:/app/package.json
+      - ./shopit/package-lock.json:/app/package-lock.json
+      - ./shopit/next.config.ts:/app/next.config.ts
+      - ./shopit/tailwind.config.ts:/app/tailwind.config.ts
+      - ./shopit/postcss.config.mjs:/app/postcss.config.mjs
+      - ./shopit/tsconfig.json:/app/tsconfig.json
+      - /app/node_modules
+      - /app/.next
     depends_on:
       backend:
         condition: service_started

@@ -6,10 +6,9 @@ COPY package*.json ./
 RUN npm ci
 
 COPY . .
-RUN npm run build
 
-ENV NODE_ENV=production
+ENV NODE_ENV=development
 
 EXPOSE 5000
 
-CMD ["node", "dist/server.js"]
+CMD ["npm", "run", "dev"]
