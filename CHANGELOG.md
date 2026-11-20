@@ -1,3 +1,14 @@
+### Change: version 0.1.2 date 2026-11-20
+
+Consolidate frontend and backend into a single root git repository.
+
+- Removed nested .git from shopit/ and shopit-backend/
+- All project files now tracked under one root repo
+
+### Commit: version 0.1.2 date 2026-11-20
+
+Consolidate shopit and shopit-backend into a single root git repo.
+
 ### Change: version 0.1.1 date 2026-11-09
 
 Add DB seed script with 120 initial products across 12 categories.
