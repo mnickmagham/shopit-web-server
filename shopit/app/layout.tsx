@@ -24,9 +24,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` antialiased font-sans`}>
-        <div className="p-2 flex justify-center font-semibold">
-          Project Under Development . . .
-        </div>
         <ReduxProvider>{children}</ReduxProvider>
       </body>
     </html>

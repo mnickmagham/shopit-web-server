@@ -1,3 +1,13 @@
+### Change: version 0.1.3 date 2026-11-20
+
+Remove "Project Under Development" banner from all pages.
+
+- shopit/app/layout.tsx: deleted the top banner div showing "Project Under Development . . ."
+
+### Commit: version 0.1.3 date 2026-11-20
+
+Remove "Project Under Development" banner from the root layout so it no longer appears on any page.
+
 ### Change: version 0.1.2 date 2026-11-20
 
 Consolidate frontend and backend into a single root git repository.
