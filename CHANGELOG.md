@@ -1,3 +1,15 @@
+### Change: version 0.1.6 date 2026-11-20
+
+Complete seed data: add price field, sample comments, and fallback picture URLs to all 120 products; make product image render fall back through multiple URLs.
+
+- shopit-backend/src/models/Product.ts: added required `price` field to schema and interface
+- shopit-backend/src/seed.ts: every product now has price (realistic by category), non-empty sample comments, and three picsum.photos picture URLs for fallback
+- shopit/app/products/[id]/components/ProductImage.tsx: falls back through picture URLs on load error instead of showing blank
+
+### Commit: version 0.1.6 date 2026-11-20
+
+Complete seed data with price, comments, and image fallbacks; fix product image reliability.
+
 ### Change: version 0.1.5 date 2026-11-20
 
 Fix category filter not affecting search results.

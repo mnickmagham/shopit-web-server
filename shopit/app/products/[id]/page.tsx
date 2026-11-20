@@ -84,7 +84,7 @@ export default function Product() {
       <div className="w-full md:w-4/5 mx-auto mt-14 mb-20" dir="rtl">
         <ProductTitle title={product.title} />
         <div className="flex flex-col md:flex-row gap-4 mb-10">
-          <ProductImage image={product.pictureUrls[0]} />
+          <ProductImage images={product.pictureUrls} />
 
           <div className="w-full md:w-1/2 flex flex-col gap-4 p-8">
             <ProductPrice price={product.price} available={product.available} />
