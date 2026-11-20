@@ -1,3 +1,10 @@
+### Change: version 0.1.7 date 2026-11-20
+
+Category-related product pictures: replace random picsum.photos seeds with per-category themed seeds so each product renders an image related to its category.
+
+- shopit-backend/src/seed.ts: every product's pictureUrls now use category-themed seeds (car, beauty, book, tech, fashion, garden, home, sport, toy) with three fallback URLs each
+
+
 ### Change: version 0.1.6 date 2026-11-20
 
 Complete seed data: add price field, sample comments, and fallback picture URLs to all 120 products; make product image render fall back through multiple URLs.

@@ -16,7 +16,7 @@ const seedProducts = [    {
       available: 24,
       price: 435,
       description: "Noise-cancelling over-ear headphones with 30h battery life.",
-      pictureUrls: ["https://picsum.photos/seed/prod-001/400/400", "https://picsum.photos/seed/prod-001-alt1/400/400", "https://picsum.photos/seed/prod-001-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-wireless-headphones/400/400", "https://picsum.photos/seed/tech-wireless-headphones-alt1/400/400", "https://picsum.photos/seed/tech-wireless-headphones-alt2/400/400"],
       categories: ["electronics", "audio"],
       tags: ["wireless", "noise-cancelling", "headphones"],
       info: [
@@ -37,7 +37,7 @@ const seedProducts = [    {
       available: 12,
       price: 150,
       description: "Fitness tracker with heart rate, GPS and always-on display.",
-      pictureUrls: ["https://picsum.photos/seed/prod-002/400/400", "https://picsum.photos/seed/prod-002-alt1/400/400", "https://picsum.photos/seed/prod-002-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-smart-watch/400/400", "https://picsum.photos/seed/tech-smart-watch-alt1/400/400", "https://picsum.photos/seed/tech-smart-watch-alt2/400/400"],
       categories: ["electronics", "wearables"],
       tags: ["fitness", "gps", "smart-watch"],
       info: [
@@ -57,7 +57,7 @@ const seedProducts = [    {
       available: 18,
       price: 740,
       description: "6.5\" OLED display phone with triple camera and 128 GB storage.",
-      pictureUrls: ["https://picsum.photos/seed/prod-003/400/400", "https://picsum.photos/seed/prod-003-alt1/400/400", "https://picsum.photos/seed/prod-003-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-smartphone/400/400", "https://picsum.photos/seed/tech-smartphone-alt1/400/400", "https://picsum.photos/seed/tech-smartphone-alt2/400/400"],
       categories: ["electronics", "phones"],
       tags: ["smartphone", "oled", "camera"],
       info: [
@@ -77,7 +77,7 @@ const seedProducts = [    {
       available: 8,
       price: 830,
       description: "14\" ultrabook with 16 GB RAM, 512 GB SSD and long battery life.",
-      pictureUrls: ["https://picsum.photos/seed/prod-004/400/400", "https://picsum.photos/seed/prod-004-alt1/400/400", "https://picsum.photos/seed/prod-004-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-laptop/400/400", "https://picsum.photos/seed/tech-laptop-alt1/400/400", "https://picsum.photos/seed/tech-laptop-alt2/400/400"],
       categories: ["electronics", "computers"],
       tags: ["laptop", "ultrabook", "work"],
       info: [
@@ -97,7 +97,7 @@ const seedProducts = [    {
       available: 30,
       price: 725,
       description: "Portable waterproof speaker with deep bass and 20h playtime.",
-      pictureUrls: ["https://picsum.photos/seed/prod-005/400/400", "https://picsum.photos/seed/prod-005-alt1/400/400", "https://picsum.photos/seed/prod-005-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-bluetooth-speaker/400/400", "https://picsum.photos/seed/tech-bluetooth-speaker-alt1/400/400", "https://picsum.photos/seed/tech-bluetooth-speaker-alt2/400/400"],
       categories: ["electronics", "audio"],
       tags: ["bluetooth", "waterproof", "speaker"],
       info: [
@@ -117,7 +117,7 @@ const seedProducts = [    {
       available: 15,
       price: 1070,
       description: "10.9\" tablet with stylus support, ideal for notes and drawing.",
-      pictureUrls: ["https://picsum.photos/seed/prod-006/400/400", "https://picsum.photos/seed/prod-006-alt1/400/400", "https://picsum.photos/seed/prod-006-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-tablet/400/400", "https://picsum.photos/seed/tech-tablet-alt1/400/400", "https://picsum.photos/seed/tech-tablet-alt2/400/400"],
       categories: ["electronics", "tablets"],
       tags: ["tablet", "stylus", "media"],
       info: [
@@ -137,7 +137,7 @@ const seedProducts = [    {
       available: 40,
       price: 925,
       description: "Ergonomic RGB gaming mouse with 16,000 DPI sensor.",
-      pictureUrls: ["https://picsum.photos/seed/prod-007/400/400", "https://picsum.photos/seed/prod-007-alt1/400/400", "https://picsum.photos/seed/prod-007-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-gaming-mouse/400/400", "https://picsum.photos/seed/tech-gaming-mouse-alt1/400/400", "https://picsum.photos/seed/tech-gaming-mouse-alt2/400/400"],
       categories: ["electronics", "gaming"],
       tags: ["mouse", "gaming", "rgb"],
       info: [
@@ -157,7 +157,7 @@ const seedProducts = [    {
       available: 22,
       price: 140,
       description: "Compact mechanical keyboard with blue switches and RGB backlight.",
-      pictureUrls: ["https://picsum.photos/seed/prod-008/400/400", "https://picsum.photos/seed/prod-008-alt1/400/400", "https://picsum.photos/seed/prod-008-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-mechanical-keyboard/400/400", "https://picsum.photos/seed/tech-mechanical-keyboard-alt1/400/400", "https://picsum.photos/seed/tech-mechanical-keyboard-alt2/400/400"],
       categories: ["electronics", "computers"],
       tags: ["keyboard", "mechanical", "typing"],
       info: [
@@ -178,7 +178,7 @@ const seedProducts = [    {
       available: 16,
       price: 765,
       description: "1080p webcam with autofocus and built-in privacy shutter.",
-      pictureUrls: ["https://picsum.photos/seed/prod-009/400/400", "https://picsum.photos/seed/prod-009-alt1/400/400", "https://picsum.photos/seed/prod-009-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-webcam/400/400", "https://picsum.photos/seed/tech-webcam-alt1/400/400", "https://picsum.photos/seed/tech-webcam-alt2/400/400"],
       categories: ["electronics", "computers"],
       tags: ["webcam", "1080p", "video"],
       info: [
@@ -198,7 +198,7 @@ const seedProducts = [    {
       available: 50,
       price: 880,
       description: "20,000 mAh power bank with fast-charging USB-C ports.",
-      pictureUrls: ["https://picsum.photos/seed/prod-010/400/400", "https://picsum.photos/seed/prod-010-alt1/400/400", "https://picsum.photos/seed/prod-010-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-power-bank/400/400", "https://picsum.photos/seed/tech-power-bank-alt1/400/400", "https://picsum.photos/seed/tech-power-bank-alt2/400/400"],
       categories: ["electronics", "accessories"],
       tags: ["power-bank", "charging", "portable"],
       info: [
@@ -219,7 +219,7 @@ const seedProducts = [    {
       available: 50,
       price: 70,
       description: "Lightweight cushioned running shoes for daily training.",
-      pictureUrls: ["https://picsum.photos/seed/prod-011/400/400", "https://picsum.photos/seed/prod-011-alt1/400/400", "https://picsum.photos/seed/prod-011-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-running-shoes/400/400", "https://picsum.photos/seed/fashion-running-shoes-alt1/400/400", "https://picsum.photos/seed/fashion-running-shoes-alt2/400/400"],
       categories: ["fashion", "footwear"],
       tags: ["running", "cushioned", "shoes"],
       info: [
@@ -239,7 +239,7 @@ const seedProducts = [    {
       available: 9,
       price: 95,
       description: "Classic genuine leather jacket with quilted lining.",
-      pictureUrls: ["https://picsum.photos/seed/prod-012/400/400", "https://picsum.photos/seed/prod-012-alt1/400/400", "https://picsum.photos/seed/prod-012-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-leather-jacket/400/400", "https://picsum.photos/seed/fashion-leather-jacket-alt1/400/400", "https://picsum.photos/seed/fashion-leather-jacket-alt2/400/400"],
       categories: ["fashion", "outerwear"],
       tags: ["leather", "jacket", "winter"],
       info: [
@@ -259,7 +259,7 @@ const seedProducts = [    {
       available: 35,
       price: 135,
       description: "Slim-fit stretch denim jeans in classic blue wash.",
-      pictureUrls: ["https://picsum.photos/seed/prod-013/400/400", "https://picsum.photos/seed/prod-013-alt1/400/400", "https://picsum.photos/seed/prod-013-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-denim-jeans/400/400", "https://picsum.photos/seed/fashion-denim-jeans-alt1/400/400", "https://picsum.photos/seed/fashion-denim-jeans-alt2/400/400"],
       categories: ["fashion", "bottoms"],
       tags: ["jeans", "denim", "slim-fit"],
       info: [
@@ -279,7 +279,7 @@ const seedProducts = [    {
       available: 60,
       price: 170,
       description: "Soft organic cotton crew-neck t-shirt.",
-      pictureUrls: ["https://picsum.photos/seed/prod-014/400/400", "https://picsum.photos/seed/prod-014-alt1/400/400", "https://picsum.photos/seed/prod-014-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-cotton-t-shirt/400/400", "https://picsum.photos/seed/fashion-cotton-t-shirt-alt1/400/400", "https://picsum.photos/seed/fashion-cotton-t-shirt-alt2/400/400"],
       categories: ["fashion", "tops"],
       tags: ["t-shirt", "cotton", "casual"],
       info: [
@@ -299,7 +299,7 @@ const seedProducts = [    {
       available: 30,
       price: 85,
       description: "Water-resistant 25 L backpack with laptop compartment.",
-      pictureUrls: ["https://picsum.photos/seed/prod-015/400/400", "https://picsum.photos/seed/prod-015-alt1/400/400", "https://picsum.photos/seed/prod-015-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-backpack/400/400", "https://picsum.photos/seed/fashion-backpack-alt1/400/400", "https://picsum.photos/seed/fashion-backpack-alt2/400/400"],
       categories: ["fashion", "bags"],
       tags: ["laptop", "water-resistant", "backpack"],
       info: [
@@ -320,7 +320,7 @@ const seedProducts = [    {
       available: 28,
       price: 150,
       description: "Wrinkle-resistant formal dress shirt with cufflinks.",
-      pictureUrls: ["https://picsum.photos/seed/prod-016/400/400", "https://picsum.photos/seed/prod-016-alt1/400/400", "https://picsum.photos/seed/prod-016-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-dress-shirt/400/400", "https://picsum.photos/seed/fashion-dress-shirt-alt1/400/400", "https://picsum.photos/seed/fashion-dress-shirt-alt2/400/400"],
       categories: ["fashion", "tops"],
       tags: ["shirt", "formal", "workwear"],
       info: [
@@ -341,7 +341,7 @@ const seedProducts = [    {
       available: 45,
       price: 195,
       description: "Heavyweight pullover hoodie with kangaroo pocket.",
-      pictureUrls: ["https://picsum.photos/seed/prod-017/400/400", "https://picsum.photos/seed/prod-017-alt1/400/400", "https://picsum.photos/seed/prod-017-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-hoodie/400/400", "https://picsum.photos/seed/fashion-hoodie-alt1/400/400", "https://picsum.photos/seed/fashion-hoodie-alt2/400/400"],
       categories: ["fashion", "tops"],
       tags: ["hoodie", "casual", "warm"],
       info: [
@@ -361,7 +361,7 @@ const seedProducts = [    {
       available: 42,
       price: 65,
       description: "Retro-style canvas sneakers with rubber sole.",
-      pictureUrls: ["https://picsum.photos/seed/prod-018/400/400", "https://picsum.photos/seed/prod-018-alt1/400/400", "https://picsum.photos/seed/prod-018-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-sneakers/400/400", "https://picsum.photos/seed/fashion-sneakers-alt1/400/400", "https://picsum.photos/seed/fashion-sneakers-alt2/400/400"],
       categories: ["fashion", "footwear"],
       tags: ["sneakers", "canvas", "casual"],
       info: [
@@ -382,7 +382,7 @@ const seedProducts = [    {
       available: 25,
       price: 75,
       description: "Soft merino wool scarf for cold weather.",
-      pictureUrls: ["https://picsum.photos/seed/prod-019/400/400", "https://picsum.photos/seed/prod-019-alt1/400/400", "https://picsum.photos/seed/prod-019-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-wool-scarf/400/400", "https://picsum.photos/seed/fashion-wool-scarf-alt1/400/400", "https://picsum.photos/seed/fashion-wool-scarf-alt2/400/400"],
       categories: ["fashion", "accessories"],
       tags: ["scarf", "wool", "winter"],
       info: [
@@ -402,7 +402,7 @@ const seedProducts = [    {
       available: 55,
       price: 60,
       description: "Polarized UV400 sunglasses with lightweight frame.",
-      pictureUrls: ["https://picsum.photos/seed/prod-020/400/400", "https://picsum.photos/seed/prod-020-alt1/400/400", "https://picsum.photos/seed/prod-020-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-sunglasses/400/400", "https://picsum.photos/seed/fashion-sunglasses-alt1/400/400", "https://picsum.photos/seed/fashion-sunglasses-alt2/400/400"],
       categories: ["fashion", "accessories"],
       tags: ["sunglasses", "polarized", "uv-protection"],
       info: [
@@ -422,7 +422,7 @@ const seedProducts = [    {
       available: 8,
       price: 375,
       description: "Programmable drip coffee maker with thermal carafe.",
-      pictureUrls: ["https://picsum.photos/seed/prod-021/400/400", "https://picsum.photos/seed/prod-021-alt1/400/400", "https://picsum.photos/seed/prod-021-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-coffee-maker/400/400", "https://picsum.photos/seed/home-coffee-maker-alt1/400/400", "https://picsum.photos/seed/home-coffee-maker-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["coffee", "programmable", "kitchen"],
       info: [
@@ -442,7 +442,7 @@ const seedProducts = [    {
       available: 14,
       price: 80,
       description: "High-speed blender for smoothies, soups and sauces.",
-      pictureUrls: ["https://picsum.photos/seed/prod-022/400/400", "https://picsum.photos/seed/prod-022-alt1/400/400", "https://picsum.photos/seed/prod-022-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-blender/400/400", "https://picsum.photos/seed/home-blender-alt1/400/400", "https://picsum.photos/seed/home-blender-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["blender", "kitchen", "appliance"],
       info: [
@@ -463,7 +463,7 @@ const seedProducts = [    {
       available: 26,
       price: 130,
       description: "Modern LED table lamp with touch dimmer and warm light.",
-      pictureUrls: ["https://picsum.photos/seed/prod-023/400/400", "https://picsum.photos/seed/prod-023-alt1/400/400", "https://picsum.photos/seed/prod-023-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-table-lamp/400/400", "https://picsum.photos/seed/home-table-lamp-alt1/400/400", "https://picsum.photos/seed/home-table-lamp-alt2/400/400"],
       categories: ["home", "lighting"],
       tags: ["lamp", "led", "desk"],
       info: [
@@ -483,7 +483,7 @@ const seedProducts = [    {
       available: 70,
       price: 445,
       description: "Plush decorative throw pillow with removable cover.",
-      pictureUrls: ["https://picsum.photos/seed/prod-024/400/400", "https://picsum.photos/seed/prod-024-alt1/400/400", "https://picsum.photos/seed/prod-024-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-throw-pillow/400/400", "https://picsum.photos/seed/home-throw-pillow-alt1/400/400", "https://picsum.photos/seed/home-throw-pillow-alt2/400/400"],
       categories: ["home", "decor"],
       tags: ["pillow", "cushion", "decor"],
       info: [
@@ -503,7 +503,7 @@ const seedProducts = [    {
       available: 11,
       price: 185,
       description: "5.5 L air fryer with digital touch controls and preset programs.",
-      pictureUrls: ["https://picsum.photos/seed/prod-025/400/400", "https://picsum.photos/seed/prod-025-alt1/400/400", "https://picsum.photos/seed/prod-025-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-air-fryer/400/400", "https://picsum.photos/seed/home-air-fryer-alt1/400/400", "https://picsum.photos/seed/home-air-fryer-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["air-fryer", "kitchen", "appliance"],
       info: [
@@ -523,7 +523,7 @@ const seedProducts = [    {
       available: 18,
       price: 350,
       description: "100% cotton duvet cover set with two pillowcases.",
-      pictureUrls: ["https://picsum.photos/seed/prod-026/400/400", "https://picsum.photos/seed/prod-026-alt1/400/400", "https://picsum.photos/seed/prod-026-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-duvet-cover-set/400/400", "https://picsum.photos/seed/home-duvet-cover-set-alt1/400/400", "https://picsum.photos/seed/home-duvet-cover-set-alt2/400/400"],
       categories: ["home", "bedding"],
       tags: ["duvet", "bedding", "cotton"],
       info: [
@@ -543,7 +543,7 @@ const seedProducts = [    {
       available: 7,
       price: 365,
       description: "5-piece non-stick cookware set with stay-cool handles.",
-      pictureUrls: ["https://picsum.photos/seed/prod-027/400/400", "https://picsum.photos/seed/prod-027-alt1/400/400", "https://picsum.photos/seed/prod-027-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-cookware-set/400/400", "https://picsum.photos/seed/home-cookware-set-alt1/400/400", "https://picsum.photos/seed/home-cookware-set-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["cookware", "pots", "pans"],
       info: [
@@ -563,7 +563,7 @@ const seedProducts = [    {
       available: 22,
       price: 165,
       description: "Minimalist silent wall clock with wooden frame.",
-      pictureUrls: ["https://picsum.photos/seed/prod-028/400/400", "https://picsum.photos/seed/prod-028-alt1/400/400", "https://picsum.photos/seed/prod-028-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-wall-clock/400/400", "https://picsum.photos/seed/home-wall-clock-alt1/400/400", "https://picsum.photos/seed/home-wall-clock-alt2/400/400"],
       categories: ["home", "decor"],
       tags: ["clock", "wall", "decor"],
       info: [
@@ -583,7 +583,7 @@ const seedProducts = [    {
       available: 33,
       price: 235,
       description: "1.7 L electric kettle with auto shut-off and boil-dry protection.",
-      pictureUrls: ["https://picsum.photos/seed/prod-029/400/400", "https://picsum.photos/seed/prod-029-alt1/400/400", "https://picsum.photos/seed/prod-029-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-electric-kettle/400/400", "https://picsum.photos/seed/home-electric-kettle-alt1/400/400", "https://picsum.photos/seed/home-electric-kettle-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["kettle", "electric", "kitchen"],
       info: [
@@ -603,7 +603,7 @@ const seedProducts = [    {
       available: 40,
       price: 25,
       description: "6-piece plush cotton bath towel set.",
-      pictureUrls: ["https://picsum.photos/seed/prod-030/400/400", "https://picsum.photos/seed/prod-030-alt1/400/400", "https://picsum.photos/seed/prod-030-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-bath-towel-set/400/400", "https://picsum.photos/seed/home-bath-towel-set-alt1/400/400", "https://picsum.photos/seed/home-bath-towel-set-alt2/400/400"],
       categories: ["home", "bath"],
       tags: ["towels", "cotton", "bath"],
       info: [
@@ -623,7 +623,7 @@ const seedProducts = [    {
       available: 48,
       price: 55,
       description: "Non-slip 6 mm TPE yoga mat with carrying strap.",
-      pictureUrls: ["https://picsum.photos/seed/prod-031/400/400", "https://picsum.photos/seed/prod-031-alt1/400/400", "https://picsum.photos/seed/prod-031-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-yoga-mat/400/400", "https://picsum.photos/seed/sport-yoga-mat-alt1/400/400", "https://picsum.photos/seed/sport-yoga-mat-alt2/400/400"],
       categories: ["sport", "fitness"],
       tags: ["yoga", "mat", "exercise"],
       info: [
@@ -643,7 +643,7 @@ const seedProducts = [    {
       available: 12,
       price: 100,
       description: "Adjustable dumbbell set, 2.5–24 kg per hand.",
-      pictureUrls: ["https://picsum.photos/seed/prod-032/400/400", "https://picsum.photos/seed/prod-032-alt1/400/400", "https://picsum.photos/seed/prod-032-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-dumbbell-set/400/400", "https://picsum.photos/seed/sport-dumbbell-set-alt1/400/400", "https://picsum.photos/seed/sport-dumbbell-set-alt2/400/400"],
       categories: ["sport", "fitness"],
       tags: ["dumbbells", "weights", "strength"],
       info: [
@@ -663,7 +663,7 @@ const seedProducts = [    {
       available: 20,
       price: 150,
       description: "Official size 7 indoor/outdoor basketball with deep channels.",
-      pictureUrls: ["https://picsum.photos/seed/prod-033/400/400", "https://picsum.photos/seed/prod-033-alt1/400/400", "https://picsum.photos/seed/prod-033-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-basketball/400/400", "https://picsum.photos/seed/sport-basketball-alt1/400/400", "https://picsum.photos/seed/sport-basketball-alt2/400/400"],
       categories: ["sport", "balls"],
       tags: ["basketball", "sports", "outdoor"],
       info: [
@@ -683,7 +683,7 @@ const seedProducts = [    {
       available: 55,
       price: 85,
       description: "Set of 5 latex resistance bands with door anchor and carry bag.",
-      pictureUrls: ["https://picsum.photos/seed/prod-034/400/400", "https://picsum.photos/seed/prod-034-alt1/400/400", "https://picsum.photos/seed/prod-034-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-resistance-bands/400/400", "https://picsum.photos/seed/sport-resistance-bands-alt1/400/400", "https://picsum.photos/seed/sport-resistance-bands-alt2/400/400"],
       categories: ["sport", "fitness"],
       tags: ["resistance-bands", "exercise", "portable"],
       info: [
@@ -704,7 +704,7 @@ const seedProducts = [    {
       available: 60,
       price: 60,
       description: "Adjustable speed jump rope with ergonomic handles.",
-      pictureUrls: ["https://picsum.photos/seed/prod-035/400/400", "https://picsum.photos/seed/prod-035-alt1/400/400", "https://picsum.photos/seed/prod-035-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-jump-rope/400/400", "https://picsum.photos/seed/sport-jump-rope-alt1/400/400", "https://picsum.photos/seed/sport-jump-rope-alt2/400/400"],
       categories: ["sport", "fitness"],
       tags: ["jump-rope", "cardio", "exercise"],
       info: [
@@ -725,7 +725,7 @@ const seedProducts = [    {
       available: 9,
       price: 190,
       description: "Lightweight graphite tennis racket, pre-strung.",
-      pictureUrls: ["https://picsum.photos/seed/prod-036/400/400", "https://picsum.photos/seed/prod-036-alt1/400/400", "https://picsum.photos/seed/prod-036-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-tennis-racket/400/400", "https://picsum.photos/seed/sport-tennis-racket-alt1/400/400", "https://picsum.photos/seed/sport-tennis-racket-alt2/400/400"],
       categories: ["sport", "racket-sports"],
       tags: ["tennis", "racket", "sports"],
       info: [
@@ -745,7 +745,7 @@ const seedProducts = [    {
       available: 36,
       price: 185,
       description: "High-density EVA foam roller for muscle recovery.",
-      pictureUrls: ["https://picsum.photos/seed/prod-037/400/400", "https://picsum.photos/seed/prod-037-alt1/400/400", "https://picsum.photos/seed/prod-037-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-foam-roller/400/400", "https://picsum.photos/seed/sport-foam-roller-alt1/400/400", "https://picsum.photos/seed/sport-foam-roller-alt2/400/400"],
       categories: ["sport", "recovery"],
       tags: ["foam-roller", "recovery", "massage"],
       info: [
@@ -766,7 +766,7 @@ const seedProducts = [    {
       available: 28,
       price: 135,
       description: "Size 5 soccer ball with butyl bladder for better air retention.",
-      pictureUrls: ["https://picsum.photos/seed/prod-038/400/400", "https://picsum.photos/seed/prod-038-alt1/400/400", "https://picsum.photos/seed/prod-038-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-soccer-ball/400/400", "https://picsum.photos/seed/sport-soccer-ball-alt1/400/400", "https://picsum.photos/seed/sport-soccer-ball-alt2/400/400"],
       categories: ["sport", "balls"],
       tags: ["soccer", "football", "sports"],
       info: [
@@ -786,7 +786,7 @@ const seedProducts = [    {
       available: 4,
       price: 25,
       description: "Magnetic exercise bike with LCD display and adjustable resistance.",
-      pictureUrls: ["https://picsum.photos/seed/prod-039/400/400", "https://picsum.photos/seed/prod-039-alt1/400/400", "https://picsum.photos/seed/prod-039-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-exercise-bike/400/400", "https://picsum.photos/seed/sport-exercise-bike-alt1/400/400", "https://picsum.photos/seed/sport-exercise-bike-alt2/400/400"],
       categories: ["sport", "equipment"],
       tags: ["exercise-bike", "cardio", "home-gym"],
       info: [
@@ -806,7 +806,7 @@ const seedProducts = [    {
       available: 24,
       price: 60,
       description: "Protective floor mat for jump rope and cardio workouts.",
-      pictureUrls: ["https://picsum.photos/seed/prod-040/400/400", "https://picsum.photos/seed/prod-040-alt1/400/400", "https://picsum.photos/seed/prod-040-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-skipping-rope-mat/400/400", "https://picsum.photos/seed/sport-skipping-rope-mat-alt1/400/400", "https://picsum.photos/seed/sport-skipping-rope-mat-alt2/400/400"],
       categories: ["sport", "accessories"],
       tags: ["mat", "floor-protection", "cardio"],
       info: [
@@ -827,7 +827,7 @@ const seedProducts = [    {
       available: 44,
       price: 35,
       description: "Hydrating face moisturizer with hyaluronic acid, 50 ml.",
-      pictureUrls: ["https://picsum.photos/seed/prod-041/400/400", "https://picsum.photos/seed/prod-041-alt1/400/400", "https://picsum.photos/seed/prod-041-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-face-moisturizer/400/400", "https://picsum.photos/seed/beauty-face-moisturizer-alt1/400/400", "https://picsum.photos/seed/beauty-face-moisturizer-alt2/400/400"],
       categories: ["beauty", "skincare"],
       tags: ["moisturizer", "hydration", "skincare"],
       info: [
@@ -847,7 +847,7 @@ const seedProducts = [    {
       available: 16,
       price: 50,
       description: "Floral-woody eau de parfum, 100 ml spray bottle.",
-      pictureUrls: ["https://picsum.photos/seed/prod-042/400/400", "https://picsum.photos/seed/prod-042-alt1/400/400", "https://picsum.photos/seed/prod-042-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-eau-de-parfum/400/400", "https://picsum.photos/seed/beauty-eau-de-parfum-alt1/400/400", "https://picsum.photos/seed/beauty-eau-de-parfum-alt2/400/400"],
       categories: ["beauty", "fragrance"],
       tags: ["perfume", "fragrance", "eau-de-parfum"],
       info: [
@@ -867,7 +867,7 @@ const seedProducts = [    {
       available: 32,
       price: 85,
       description: "Matte lipstick set of 6 neutral and bold shades.",
-      pictureUrls: ["https://picsum.photos/seed/prod-043/400/400", "https://picsum.photos/seed/prod-043-alt1/400/400", "https://picsum.photos/seed/prod-043-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-lipstick-set/400/400", "https://picsum.photos/seed/beauty-lipstick-set-alt1/400/400", "https://picsum.photos/seed/beauty-lipstick-set-alt2/400/400"],
       categories: ["beauty", "makeup"],
       tags: ["lipstick", "makeup", "matte"],
       info: [
@@ -887,7 +887,7 @@ const seedProducts = [    {
       available: 14,
       price: 25,
       description: "2200 W ionic hair dryer with diffuser and concentrator nozzles.",
-      pictureUrls: ["https://picsum.photos/seed/prod-044/400/400", "https://picsum.photos/seed/prod-044-alt1/400/400", "https://picsum.photos/seed/prod-044-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-hair-dryer/400/400", "https://picsum.photos/seed/beauty-hair-dryer-alt1/400/400", "https://picsum.photos/seed/beauty-hair-dryer-alt2/400/400"],
       categories: ["beauty", "hair"],
       tags: ["hair-dryer", "styling", "appliance"],
       info: [
@@ -908,7 +908,7 @@ const seedProducts = [    {
       available: 38,
       price: 25,
       description: "12-shade eye shadow palette with matte and shimmer finishes.",
-      pictureUrls: ["https://picsum.photos/seed/prod-045/400/400", "https://picsum.photos/seed/prod-045-alt1/400/400", "https://picsum.photos/seed/prod-045-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-eye-shadow-palette/400/400", "https://picsum.photos/seed/beauty-eye-shadow-palette-alt1/400/400", "https://picsum.photos/seed/beauty-eye-shadow-palette-alt2/400/400"],
       categories: ["beauty", "makeup"],
       tags: ["eye-shadow", "makeup", "palette"],
       info: [
@@ -928,7 +928,7 @@ const seedProducts = [    {
       available: 50,
       price: 55,
       description: "Shea butter body lotion, 400 ml pump bottle.",
-      pictureUrls: ["https://picsum.photos/seed/prod-046/400/400", "https://picsum.photos/seed/prod-046-alt1/400/400", "https://picsum.photos/seed/prod-046-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-body-lotion/400/400", "https://picsum.photos/seed/beauty-body-lotion-alt1/400/400", "https://picsum.photos/seed/beauty-body-lotion-alt2/400/400"],
       categories: ["beauty", "skincare"],
       tags: ["lotion", "body", "moisturizer"],
       info: [
@@ -948,7 +948,7 @@ const seedProducts = [    {
       available: 26,
       price: 45,
       description: "10-piece synthetic makeup brush set with case.",
-      pictureUrls: ["https://picsum.photos/seed/prod-047/400/400", "https://picsum.photos/seed/prod-047-alt1/400/400", "https://picsum.photos/seed/prod-047-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-makeup-brush-set/400/400", "https://picsum.photos/seed/beauty-makeup-brush-set-alt1/400/400", "https://picsum.photos/seed/beauty-makeup-brush-set-alt2/400/400"],
       categories: ["beauty", "tools"],
       tags: ["brushes", "makeup", "set"],
       info: [
@@ -968,7 +968,7 @@ const seedProducts = [    {
       available: 41,
       price: 25,
       description: "Gel-effect nail polish set of 10 seasonal colors.",
-      pictureUrls: ["https://picsum.photos/seed/prod-048/400/400", "https://picsum.photos/seed/prod-048-alt1/400/400", "https://picsum.photos/seed/prod-048-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-nail-polish-set/400/400", "https://picsum.photos/seed/beauty-nail-polish-set-alt1/400/400", "https://picsum.photos/seed/beauty-nail-polish-set-alt2/400/400"],
       categories: ["beauty", "nails"],
       tags: ["nail-polish", "manicure", "set"],
       info: [
@@ -989,7 +989,7 @@ const seedProducts = [    {
       available: 29,
       price: 90,
       description: "Vitamin C brightening face serum, 30 ml dropper bottle.",
-      pictureUrls: ["https://picsum.photos/seed/prod-049/400/400", "https://picsum.photos/seed/prod-049-alt1/400/400", "https://picsum.photos/seed/prod-049-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-face-serum/400/400", "https://picsum.photos/seed/beauty-face-serum-alt1/400/400", "https://picsum.photos/seed/beauty-face-serum-alt2/400/400"],
       categories: ["beauty", "skincare"],
       tags: ["serum", "vitamin-c", "skincare"],
       info: [
@@ -1009,7 +1009,7 @@ const seedProducts = [    {
       available: 46,
       price: 95,
       description: "Broad-spectrum sunscreen SPF 50, water-resistant, 100 ml.",
-      pictureUrls: ["https://picsum.photos/seed/prod-050/400/400", "https://picsum.photos/seed/prod-050-alt1/400/400", "https://picsum.photos/seed/prod-050-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-sunscreen-spf-50/400/400", "https://picsum.photos/seed/beauty-sunscreen-spf-50-alt1/400/400", "https://picsum.photos/seed/beauty-sunscreen-spf-50-alt2/400/400"],
       categories: ["beauty", "skincare"],
       tags: ["sunscreen", "spf", "sun-protection"],
       info: [
@@ -1030,7 +1030,7 @@ const seedProducts = [    {
       available: 33,
       price: 15,
       description: "Bestselling sci-fi novel, paperback, 420 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-051/400/400", "https://picsum.photos/seed/prod-051-alt1/400/400", "https://picsum.photos/seed/prod-051-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-science-fiction-novel/400/400", "https://picsum.photos/seed/book-science-fiction-novel-alt1/400/400", "https://picsum.photos/seed/book-science-fiction-novel-alt2/400/400"],
       categories: ["books", "fiction"],
       tags: ["science-fiction", "novel", "paperback"],
       info: [
@@ -1050,7 +1050,7 @@ const seedProducts = [    {
       available: 21,
       price: 35,
       description: "Modern vegetarian cookbook with 150 recipes, hardcover.",
-      pictureUrls: ["https://picsum.photos/seed/prod-052/400/400", "https://picsum.photos/seed/prod-052-alt1/400/400", "https://picsum.photos/seed/prod-052-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-cookbook/400/400", "https://picsum.photos/seed/book-cookbook-alt1/400/400", "https://picsum.photos/seed/book-cookbook-alt2/400/400"],
       categories: ["books", "cooking"],
       tags: ["cookbook", "vegetarian", "recipes"],
       info: [
@@ -1071,7 +1071,7 @@ const seedProducts = [    {
       available: 27,
       price: 10,
       description: "Guide to building better habits, paperback, 310 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-053/400/400", "https://picsum.photos/seed/prod-053-alt1/400/400", "https://picsum.photos/seed/prod-053-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-self-help-book/400/400", "https://picsum.photos/seed/book-self-help-book-alt1/400/400", "https://picsum.photos/seed/book-self-help-book-alt2/400/400"],
       categories: ["books", "self-help"],
       tags: ["self-help", "habits", "productivity"],
       info: [
@@ -1091,7 +1091,7 @@ const seedProducts = [    {
       available: 19,
       price: 15,
       description: "Gripping mystery thriller, paperback, 380 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-054/400/400", "https://picsum.photos/seed/prod-054-alt1/400/400", "https://picsum.photos/seed/prod-054-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-mystery-thriller/400/400", "https://picsum.photos/seed/book-mystery-thriller-alt1/400/400", "https://picsum.photos/seed/book-mystery-thriller-alt2/400/400"],
       categories: ["books", "fiction"],
       tags: ["mystery", "thriller", "paperback"],
       info: [
@@ -1111,7 +1111,7 @@ const seedProducts = [    {
       available: 42,
       price: 30,
       description: "Illustrated children's picture book, hardcover, 40 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-055/400/400", "https://picsum.photos/seed/prod-055-alt1/400/400", "https://picsum.photos/seed/prod-055-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-children-s-picture-book/400/400", "https://picsum.photos/seed/book-children-s-picture-book-alt1/400/400", "https://picsum.photos/seed/book-children-s-picture-book-alt2/400/400"],
       categories: ["books", "children"],
       tags: ["children", "picture-book", "illustrated"],
       info: [
@@ -1131,7 +1131,7 @@ const seedProducts = [    {
       available: 15,
       price: 25,
       description: "Deep-dive history non-fiction, hardcover, 520 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-056/400/400", "https://picsum.photos/seed/prod-056-alt1/400/400", "https://picsum.photos/seed/prod-056-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-history-non-fiction/400/400", "https://picsum.photos/seed/book-history-non-fiction-alt1/400/400", "https://picsum.photos/seed/book-history-non-fiction-alt2/400/400"],
       categories: ["books", "non-fiction"],
       tags: ["history", "non-fiction", "hardcover"],
       info: [
@@ -1152,7 +1152,7 @@ const seedProducts = [    {
       available: 18,
       price: 15,
       description: "Contemporary poetry collection, paperback, 160 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-057/400/400", "https://picsum.photos/seed/prod-057-alt1/400/400", "https://picsum.photos/seed/prod-057-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-poetry-collection/400/400", "https://picsum.photos/seed/book-poetry-collection-alt1/400/400", "https://picsum.photos/seed/book-poetry-collection-alt2/400/400"],
       categories: ["books", "poetry"],
       tags: ["poetry", "literature", "paperback"],
       info: [
@@ -1173,7 +1173,7 @@ const seedProducts = [    {
       available: 24,
       price: 40,
       description: "Business strategy and leadership guide, hardcover, 290 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-058/400/400", "https://picsum.photos/seed/prod-058-alt1/400/400", "https://picsum.photos/seed/prod-058-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-business-strategy-book/400/400", "https://picsum.photos/seed/book-business-strategy-book-alt1/400/400", "https://picsum.photos/seed/book-business-strategy-book-alt2/400/400"],
       categories: ["books", "business"],
       tags: ["business", "strategy", "leadership"],
       info: [
@@ -1193,7 +1193,7 @@ const seedProducts = [    {
       available: 31,
       price: 25,
       description: "Epic fantasy novel, paperback, 600 pages, map included.",
-      pictureUrls: ["https://picsum.photos/seed/prod-059/400/400", "https://picsum.photos/seed/prod-059-alt1/400/400", "https://picsum.photos/seed/prod-059-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-fantasy-novel/400/400", "https://picsum.photos/seed/book-fantasy-novel-alt1/400/400", "https://picsum.photos/seed/book-fantasy-novel-alt2/400/400"],
       categories: ["books", "fiction"],
       tags: ["fantasy", "novel", "epic"],
       info: [
@@ -1214,7 +1214,7 @@ const seedProducts = [    {
       available: 13,
       price: 20,
       description: "City travel guide with maps and local tips, paperback, 220 pages.",
-      pictureUrls: ["https://picsum.photos/seed/prod-060/400/400", "https://picsum.photos/seed/prod-060-alt1/400/400", "https://picsum.photos/seed/prod-060-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/book-travel-guide/400/400", "https://picsum.photos/seed/book-travel-guide-alt1/400/400", "https://picsum.photos/seed/book-travel-guide-alt2/400/400"],
       categories: ["books", "travel"],
       tags: ["travel", "guide", "paperback"],
       info: [
@@ -1235,7 +1235,7 @@ const seedProducts = [    {
       available: 37,
       price: 60,
       description: "500-piece creative building block set, compatible with major brands.",
-      pictureUrls: ["https://picsum.photos/seed/prod-061/400/400", "https://picsum.photos/seed/prod-061-alt1/400/400", "https://picsum.photos/seed/prod-061-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-building-block-set/400/400", "https://picsum.photos/seed/toy-building-block-set-alt1/400/400", "https://picsum.photos/seed/toy-building-block-set-alt2/400/400"],
       categories: ["toys", "building"],
       tags: ["blocks", "building", "construction"],
       info: [
@@ -1255,7 +1255,7 @@ const seedProducts = [    {
       available: 15,
       price: 70,
       description: "4WD remote control car with drift mode, 2.4 GHz.",
-      pictureUrls: ["https://picsum.photos/seed/prod-062/400/400", "https://picsum.photos/seed/prod-062-alt1/400/400", "https://picsum.photos/seed/prod-062-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-remote-control-car/400/400", "https://picsum.photos/seed/toy-remote-control-car-alt1/400/400", "https://picsum.photos/seed/toy-remote-control-car-alt2/400/400"],
       categories: ["toys", "rc"],
       tags: ["rc-car", "remote-control", "toy"],
       info: [
@@ -1275,7 +1275,7 @@ const seedProducts = [    {
       available: 8,
       price: 30,
       description: "3-story wooden doll house with furniture set.",
-      pictureUrls: ["https://picsum.photos/seed/prod-063/400/400", "https://picsum.photos/seed/prod-063-alt1/400/400", "https://picsum.photos/seed/prod-063-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-doll-house/400/400", "https://picsum.photos/seed/toy-doll-house-alt1/400/400", "https://picsum.photos/seed/toy-doll-house-alt2/400/400"],
       categories: ["toys", "dolls"],
       tags: ["doll-house", "wooden", "pretend-play"],
       info: [
@@ -1296,7 +1296,7 @@ const seedProducts = [    {
       available: 23,
       price: 80,
       description: "Family strategy board game for 2–4 players, 60 min playtime.",
-      pictureUrls: ["https://picsum.photos/seed/prod-064/400/400", "https://picsum.photos/seed/prod-064-alt1/400/400", "https://picsum.photos/seed/prod-064-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-board-game/400/400", "https://picsum.photos/seed/toy-board-game-alt1/400/400", "https://picsum.photos/seed/toy-board-game-alt2/400/400"],
       categories: ["toys", "games"],
       tags: ["board-game", "family", "strategy"],
       info: [
@@ -1316,7 +1316,7 @@ const seedProducts = [    {
       available: 30,
       price: 65,
       description: "1000-piece jigsaw puzzle with scenic landscape artwork.",
-      pictureUrls: ["https://picsum.photos/seed/prod-065/400/400", "https://picsum.photos/seed/prod-065-alt1/400/400", "https://picsum.photos/seed/prod-065-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-puzzle-1000-pcs/400/400", "https://picsum.photos/seed/toy-puzzle-1000-pcs-alt1/400/400", "https://picsum.photos/seed/toy-puzzle-1000-pcs-alt2/400/400"],
       categories: ["toys", "puzzles"],
       tags: ["puzzle", "jigsaw", "leisure"],
       info: [
@@ -1336,7 +1336,7 @@ const seedProducts = [    {
       available: 29,
       price: 55,
       description: "62-piece drawing and painting art set in wooden case.",
-      pictureUrls: ["https://picsum.photos/seed/prod-066/400/400", "https://picsum.photos/seed/prod-066-alt1/400/400", "https://picsum.photos/seed/prod-066-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-art-set/400/400", "https://picsum.photos/seed/toy-art-set-alt1/400/400", "https://picsum.photos/seed/toy-art-set-alt2/400/400"],
       categories: ["toys", "art"],
       tags: ["art-set", "drawing", "painting"],
       info: [
@@ -1356,7 +1356,7 @@ const seedProducts = [    {
       available: 11,
       price: 65,
       description: "Battery-operated train set with track and accessories.",
-      pictureUrls: ["https://picsum.photos/seed/prod-067/400/400", "https://picsum.photos/seed/prod-067-alt1/400/400", "https://picsum.photos/seed/prod-067-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-train-set/400/400", "https://picsum.photos/seed/toy-train-set-alt1/400/400", "https://picsum.photos/seed/toy-train-set-alt2/400/400"],
       categories: ["toys", "vehicles"],
       tags: ["train", "toy", "battery-operated"],
       info: [
@@ -1376,7 +1376,7 @@ const seedProducts = [    {
       available: 20,
       price: 70,
       description: "Pretend-play kitchen set with toy pots, pans and food.",
-      pictureUrls: ["https://picsum.photos/seed/prod-068/400/400", "https://picsum.photos/seed/prod-068-alt1/400/400", "https://picsum.photos/seed/prod-068-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-kitchen-play-set/400/400", "https://picsum.photos/seed/toy-kitchen-play-set-alt1/400/400", "https://picsum.photos/seed/toy-kitchen-play-set-alt2/400/400"],
       categories: ["toys", "pretend-play"],
       tags: ["kitchen", "pretend-play", "toy"],
       info: [
@@ -1396,7 +1396,7 @@ const seedProducts = [    {
       available: 45,
       price: 70,
       description: "Plush stuffed animal, soft and cuddly, 30 cm tall.",
-      pictureUrls: ["https://picsum.photos/seed/prod-069/400/400", "https://picsum.photos/seed/prod-069-alt1/400/400", "https://picsum.photos/seed/prod-069-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-stuffed-animal/400/400", "https://picsum.photos/seed/toy-stuffed-animal-alt1/400/400", "https://picsum.photos/seed/toy-stuffed-animal-alt2/400/400"],
       categories: ["toys", "plush"],
       tags: ["stuffed-animal", "plush", "gift"],
       info: [
@@ -1416,7 +1416,7 @@ const seedProducts = [    {
       available: 17,
       price: 30,
       description: "STEM science kit with 20+ experiments for curious kids.",
-      pictureUrls: ["https://picsum.photos/seed/prod-070/400/400", "https://picsum.photos/seed/prod-070-alt1/400/400", "https://picsum.photos/seed/prod-070-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/toy-science-kit/400/400", "https://picsum.photos/seed/toy-science-kit-alt1/400/400", "https://picsum.photos/seed/toy-science-kit-alt2/400/400"],
       categories: ["toys", "stem"],
       tags: ["science-kit", "stem", "education"],
       info: [
@@ -1436,7 +1436,7 @@ const seedProducts = [    {
       available: 58,
       price: 95,
       description: "Dashboard car phone holder with strong suction cup.",
-      pictureUrls: ["https://picsum.photos/seed/prod-071/400/400", "https://picsum.photos/seed/prod-071-alt1/400/400", "https://picsum.photos/seed/prod-071-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-car-phone-holder/400/400", "https://picsum.photos/seed/car-car-phone-holder-alt1/400/400", "https://picsum.photos/seed/car-car-phone-holder-alt2/400/400"],
       categories: ["automotive", "accessories"],
       tags: ["phone-holder", "car", "accessory"],
       info: [
@@ -1456,7 +1456,7 @@ const seedProducts = [    {
       available: 16,
       price: 270,
       description: "12V handheld car vacuum with HEPA filter and crevice tool.",
-      pictureUrls: ["https://picsum.photos/seed/prod-072/400/400", "https://picsum.photos/seed/prod-072-alt1/400/400", "https://picsum.photos/seed/prod-072-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-car-vacuum/400/400", "https://picsum.photos/seed/car-car-vacuum-alt1/400/400", "https://picsum.photos/seed/car-car-vacuum-alt2/400/400"],
       categories: ["automotive", "cleaning"],
       tags: ["car-vacuum", "cleaning", "accessory"],
       info: [
@@ -1476,7 +1476,7 @@ const seedProducts = [    {
       available: 33,
       price: 105,
       description: "Memory foam car seat cushion with non-slip bottom.",
-      pictureUrls: ["https://picsum.photos/seed/prod-073/400/400", "https://picsum.photos/seed/prod-073-alt1/400/400", "https://picsum.photos/seed/prod-073-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-seat-cushion/400/400", "https://picsum.photos/seed/car-seat-cushion-alt1/400/400", "https://picsum.photos/seed/car-seat-cushion-alt2/400/400"],
       categories: ["automotive", "interior"],
       tags: ["seat-cushion", "memory-foam", "comfort"],
       info: [
@@ -1496,7 +1496,7 @@ const seedProducts = [    {
       available: 10,
       price: 95,
       description: "1080p dash cam with loop recording and G-sensor.",
-      pictureUrls: ["https://picsum.photos/seed/prod-074/400/400", "https://picsum.photos/seed/prod-074-alt1/400/400", "https://picsum.photos/seed/prod-074-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-dash-cam/400/400", "https://picsum.photos/seed/car-dash-cam-alt1/400/400", "https://picsum.photos/seed/car-dash-cam-alt2/400/400"],
       categories: ["automotive", "electronics"],
       tags: ["dash-cam", "1080p", "safety"],
       info: [
@@ -1516,7 +1516,7 @@ const seedProducts = [    {
       available: 47,
       price: 225,
       description: "Digital tire pressure gauge with backlit LCD display.",
-      pictureUrls: ["https://picsum.photos/seed/prod-075/400/400", "https://picsum.photos/seed/prod-075-alt1/400/400", "https://picsum.photos/seed/prod-075-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-tire-pressure-gauge/400/400", "https://picsum.photos/seed/car-tire-pressure-gauge-alt1/400/400", "https://picsum.photos/seed/car-tire-pressure-gauge-alt2/400/400"],
       categories: ["automotive", "tools"],
       tags: ["tire-gauge", "digital", "maintenance"],
       info: [
@@ -1537,7 +1537,7 @@ const seedProducts = [    {
       available: 31,
       price: 135,
       description: "Back-seat car organizer with tablet holder and pockets.",
-      pictureUrls: ["https://picsum.photos/seed/prod-076/400/400", "https://picsum.photos/seed/prod-076-alt1/400/400", "https://picsum.photos/seed/prod-076-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-car-organizer/400/400", "https://picsum.photos/seed/car-car-organizer-alt1/400/400", "https://picsum.photos/seed/car-car-organizer-alt2/400/400"],
       categories: ["automotive", "organizers"],
       tags: ["organizer", "car", "storage"],
       info: [
@@ -1557,7 +1557,7 @@ const seedProducts = [    {
       available: 7,
       price: 140,
       description: "Portable car jump starter, 2000 A peak, with USB output.",
-      pictureUrls: ["https://picsum.photos/seed/prod-077/400/400", "https://picsum.photos/seed/prod-077-alt1/400/400", "https://picsum.photos/seed/prod-077-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-jump-starter/400/400", "https://picsum.photos/seed/car-jump-starter-alt1/400/400", "https://picsum.photos/seed/car-jump-starter-alt2/400/400"],
       categories: ["automotive", "tools"],
       tags: ["jump-starter", "car", "emergency"],
       info: [
@@ -1577,7 +1577,7 @@ const seedProducts = [    {
       available: 39,
       price: 60,
       description: "Long-handled wheel cleaning brush with soft bristles.",
-      pictureUrls: ["https://picsum.photos/seed/prod-078/400/400", "https://picsum.photos/seed/prod-078-alt1/400/400", "https://picsum.photos/seed/prod-078-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-wheel-cleaning-brush/400/400", "https://picsum.photos/seed/car-wheel-cleaning-brush-alt1/400/400", "https://picsum.photos/seed/car-wheel-cleaning-brush-alt2/400/400"],
       categories: ["automotive", "cleating"],
       tags: ["brush", "cleaning", "wheels"],
       info: [
@@ -1597,7 +1597,7 @@ const seedProducts = [    {
       available: 44,
       price: 40,
       description: "Foldable windshield sun shade, reflective, fits most cars.",
-      pictureUrls: ["https://picsum.photos/seed/prod-079/400/400", "https://picsum.photos/seed/prod-079-alt1/400/400", "https://picsum.photos/seed/prod-079-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-sun-shade/400/400", "https://picsum.photos/seed/car-sun-shade-alt1/400/400", "https://picsum.photos/seed/car-sun-shade-alt2/400/400"],
       categories: ["automotive", "interior"],
       tags: ["sun-shade", "windshield", "accessory"],
       info: [
@@ -1617,7 +1617,7 @@ const seedProducts = [    {
       available: 14,
       price: 160,
       description: "70-piece car emergency kit with tools, first aid and warning triangle.",
-      pictureUrls: ["https://picsum.photos/seed/prod-080/400/400", "https://picsum.photos/seed/prod-080-alt1/400/400", "https://picsum.photos/seed/prod-080-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/car-emergency-kit/400/400", "https://picsum.photos/seed/car-emergency-kit-alt1/400/400", "https://picsum.photos/seed/car-emergency-kit-alt2/400/400"],
       categories: ["automotive", "safety"],
       tags: ["emergency-kit", "safety", "car"],
       info: [
@@ -1638,7 +1638,7 @@ const seedProducts = [    {
       available: 52,
       price: 65,
       description: "Set of 3 ceramic plant pots with drainage holes and saucers.",
-      pictureUrls: ["https://picsum.photos/seed/prod-081/400/400", "https://picsum.photos/seed/prod-081-alt1/400/400", "https://picsum.photos/seed/prod-081-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-plant-pot-set/400/400", "https://picsum.photos/seed/garden-plant-pot-set-alt1/400/400", "https://picsum.photos/seed/garden-plant-pot-set-alt2/400/400"],
       categories: ["garden", "pots"],
       tags: ["plant-pots", "ceramic", "garden"],
       info: [
@@ -1658,7 +1658,7 @@ const seedProducts = [    {
       available: 12,
       price: 130,
       description: "15 m expandable garden hose with brass fittings and spray nozzle.",
-      pictureUrls: ["https://picsum.photos/seed/prod-082/400/400", "https://picsum.photos/seed/prod-082-alt1/400/400", "https://picsum.photos/seed/prod-082-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-garden-hose/400/400", "https://picsum.photos/seed/garden-garden-hose-alt1/400/400", "https://picsum.photos/seed/garden-garden-hose-alt2/400/400"],
       categories: ["garden", "watering"],
       tags: ["hose", "garden", "watering"],
       info: [
@@ -1678,7 +1678,7 @@ const seedProducts = [    {
       available: 28,
       price: 150,
       description: "Bypass pruning shears with non-stick coated blades.",
-      pictureUrls: ["https://picsum.photos/seed/prod-083/400/400", "https://picsum.photos/seed/prod-083-alt1/400/400", "https://picsum.photos/seed/prod-083-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-pruning-shears/400/400", "https://picsum.photos/seed/garden-pruning-shears-alt1/400/400", "https://picsum.photos/seed/garden-pruning-shears-alt2/400/400"],
       categories: ["garden", "tools"],
       tags: ["shears", "pruning", "garden-tools"],
       info: [
@@ -1699,7 +1699,7 @@ const seedProducts = [    {
       available: 40,
       price: 70,
       description: "Set of 4 outdoor solar pathway lights, auto on/off at dusk.",
-      pictureUrls: ["https://picsum.photos/seed/prod-084/400/400", "https://picsum.photos/seed/prod-084-alt1/400/400", "https://picsum.photos/seed/prod-084-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-outdoor-solar-lights/400/400", "https://picsum.photos/seed/garden-outdoor-solar-lights-alt1/400/400", "https://picsum.photos/seed/garden-outdoor-solar-lights-alt2/400/400"],
       categories: ["garden", "lighting"],
       tags: ["solar-lights", "outdoor", "pathway"],
       info: [
@@ -1719,7 +1719,7 @@ const seedProducts = [    {
       available: 22,
       price: 75,
       description: "Foldable garden kneeler and seat with side tool pockets.",
-      pictureUrls: ["https://picsum.photos/seed/prod-085/400/400", "https://picsum.photos/seed/prod-085-alt1/400/400", "https://picsum.photos/seed/prod-085-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-garden-kneeler/400/400", "https://picsum.photos/seed/garden-garden-kneeler-alt1/400/400", "https://picsum.photos/seed/garden-garden-kneeler-alt2/400/400"],
       categories: ["garden", "accessories"],
       tags: ["kneeler", "seat", "gardening"],
       info: [
@@ -1739,7 +1739,7 @@ const seedProducts = [    {
       available: 19,
       price: 130,
       description: "Hanging bird feeder with clear reservoir and metal hanger.",
-      pictureUrls: ["https://picsum.photos/seed/prod-086/400/400", "https://picsum.photos/seed/prod-086-alt1/400/400", "https://picsum.photos/seed/prod-086-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-bird-feeder/400/400", "https://picsum.photos/seed/garden-bird-feeder-alt1/400/400", "https://picsum.photos/seed/garden-bird-feeder-alt2/400/400"],
       categories: ["garden", "wildlife"],
       tags: ["bird-feeder", "wildlife", "garden"],
       info: [
@@ -1759,7 +1759,7 @@ const seedProducts = [    {
       available: 5,
       price: 150,
       description: "Push lawn mower with 40 cm cutting width and grass catcher.",
-      pictureUrls: ["https://picsum.photos/seed/prod-087/400/400", "https://picsum.photos/seed/prod-087-alt1/400/400", "https://picsum.photos/seed/prod-087-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-lawn-mower/400/400", "https://picsum.photos/seed/garden-lawn-mower-alt1/400/400", "https://picsum.photos/seed/garden-lawn-mower-alt2/400/400"],
       categories: ["garden", "equipment"],
       tags: ["lawn-mower", "garden", "equipment"],
       info: [
@@ -1779,7 +1779,7 @@ const seedProducts = [    {
       available: 35,
       price: 50,
       description: "5-piece garden hand tool set with canvas carry bag.",
-      pictureUrls: ["https://picsum.photos/seed/prod-088/400/400", "https://picsum.photos/seed/prod-088-alt1/400/400", "https://picsum.photos/seed/prod-088-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-garden-tool-set/400/400", "https://picsum.photos/seed/garden-garden-tool-set-alt1/400/400", "https://picsum.photos/seed/garden-garden-tool-set-alt2/400/400"],
       categories: ["garden", "tools"],
       tags: ["tools", "set", "gardening"],
       info: [
@@ -1799,7 +1799,7 @@ const seedProducts = [    {
       available: 8,
       price: 85,
       description: "Wooden raised garden bed kit, 120 x 60 x 30 cm, easy assembly.",
-      pictureUrls: ["https://picsum.photos/seed/prod-089/400/400", "https://picsum.photos/seed/prod-089-alt1/400/400", "https://picsum.photos/seed/prod-089-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-raised-bed-kit/400/400", "https://picsum.photos/seed/garden-raised-bed-kit-alt1/400/400", "https://picsum.photos/seed/garden-raised-bed-kit-alt2/400/400"],
       categories: ["garden", "beds"],
       tags: ["raised-bed", "garden", "wood"],
       info: [
@@ -1819,7 +1819,7 @@ const seedProducts = [    {
       available: 26,
       price: 25,
       description: "5 L galvanized steel watering can with long spout.",
-      pictureUrls: ["https://picsum.photos/seed/prod-090/400/400", "https://picsum.photos/seed/prod-090-alt1/400/400", "https://picsum.photos/seed/prod-090-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/garden-watering-can/400/400", "https://picsum.photos/seed/garden-watering-can-alt1/400/400", "https://picsum.photos/seed/garden-watering-can-alt2/400/400"],
       categories: ["garden", "watering"],
       tags: ["watering-can", "garden", "steel"],
       info: [
@@ -1839,7 +1839,7 @@ const seedProducts = [    {
       available: 48,
       price: 365,
       description: "Mesh desk organizer with multiple compartments for stationery.",
-      pictureUrls: ["https://picsum.photos/seed/prod-091/400/400", "https://picsum.photos/seed/prod-091-alt1/400/400", "https://picsum.photos/seed/prod-091-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-desk-organizer/400/400", "https://picsum.photos/seed/home-desk-organizer-alt1/400/400", "https://picsum.photos/seed/home-desk-organizer-alt2/400/400"],
       categories: ["home", "office"],
       tags: ["organizer", "desk", "office"],
       info: [
@@ -1859,7 +1859,7 @@ const seedProducts = [    {
       available: 39,
       price: 30,
       description: "High-density foam yoga block for support and alignment.",
-      pictureUrls: ["https://picsum.photos/seed/prod-092/400/400", "https://picsum.photos/seed/prod-092-alt1/400/400", "https://picsum.photos/seed/prod-092-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-yoga-block/400/400", "https://picsum.photos/seed/sport-yoga-block-alt1/400/400", "https://picsum.photos/seed/sport-yoga-block-alt2/400/400"],
       categories: ["sport", "fitness"],
       tags: ["yoga-block", "props", "exercise"],
       info: [
@@ -1880,7 +1880,7 @@ const seedProducts = [    {
       available: 22,
       price: 95,
       description: "Rechargeable electric toothbrush with 3 cleaning modes and 2 heads.",
-      pictureUrls: ["https://picsum.photos/seed/prod-093/400/400", "https://picsum.photos/seed/prod-093-alt1/400/400", "https://picsum.photos/seed/prod-093-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-electric-toothbrush/400/400", "https://picsum.photos/seed/beauty-electric-toothbrush-alt1/400/400", "https://picsum.photos/seed/beauty-electric-toothbrush-alt2/400/400"],
       categories: ["beauty", "oral-care"],
       tags: ["toothbrush", "electric", "oral-care"],
       info: [
@@ -1900,7 +1900,7 @@ const seedProducts = [    {
       available: 17,
       price: 185,
       description: "Set of 3 floating wall shelves, wood finish, mounting hardware included.",
-      pictureUrls: ["https://picsum.photos/seed/prod-094/400/400", "https://picsum.photos/seed/prod-094-alt1/400/400", "https://picsum.photos/seed/prod-094-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-wall-shelf-set/400/400", "https://picsum.photos/seed/home-wall-shelf-set-alt1/400/400", "https://picsum.photos/seed/home-wall-shelf-set-alt2/400/400"],
       categories: ["home", "storage"],
       tags: ["shelves", "wall", "storage"],
       info: [
@@ -1921,7 +1921,7 @@ const seedProducts = [    {
       available: 22,
       price: 55,
       description: "Rechargeable electric toothbrush with 3 cleaning modes and 2 heads.",
-      pictureUrls: ["https://picsum.photos/seed/prod-095/400/400", "https://picsum.photos/seed/prod-095-alt1/400/400", "https://picsum.photos/seed/prod-095-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-electric-toothbrush/400/400", "https://picsum.photos/seed/beauty-electric-toothbrush-alt1/400/400", "https://picsum.photos/seed/beauty-electric-toothbrush-alt2/400/400"],
       categories: ["beauty", "oral-care"],
       tags: ["toothbrush", "electric", "oral-care"],
       info: [
@@ -1941,7 +1941,7 @@ const seedProducts = [    {
       available: 14,
       price: 115,
       description: "40 L travel backpack with laptop sleeve and water-resistant fabric.",
-      pictureUrls: ["https://picsum.photos/seed/prod-096/400/400", "https://picsum.photos/seed/prod-096-alt1/400/400", "https://picsum.photos/seed/prod-096-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-travel-backpack/400/400", "https://picsum.photos/seed/fashion-travel-backpack-alt1/400/400", "https://picsum.photos/seed/fashion-travel-backpack-alt2/400/400"],
       categories: ["fashion", "bags"],
       tags: ["travel", "backpack", "water-resistant"],
       info: [
@@ -1961,7 +1961,7 @@ const seedProducts = [    {
       available: 36,
       price: 1270,
       description: "Wi-Fi smart plug with app control and voice assistant compatibility.",
-      pictureUrls: ["https://picsum.photos/seed/prod-097/400/400", "https://picsum.photos/seed/prod-097-alt1/400/400", "https://picsum.photos/seed/prod-097-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-smart-plug/400/400", "https://picsum.photos/seed/tech-smart-plug-alt1/400/400", "https://picsum.photos/seed/tech-smart-plug-alt2/400/400"],
       categories: ["electronics", "smart-home"],
       tags: ["smart-plug", "wifi", "home-automation"],
       info: [
@@ -1981,7 +1981,7 @@ const seedProducts = [    {
       available: 30,
       price: 65,
       description: "LED desk lamp with 5 color temperatures and 7 brightness levels.",
-      pictureUrls: ["https://picsum.photos/seed/prod-098/400/400", "https://picsum.photos/seed/prod-098-alt1/400/400", "https://picsum.photos/seed/prod-098-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-desk-lamp/400/400", "https://picsum.photos/seed/home-desk-lamp-alt1/400/400", "https://picsum.photos/seed/home-desk-lamp-alt2/400/400"],
       categories: ["home", "lighting"],
       tags: ["desk-lamp", "led", "adjustable"],
       info: [
@@ -2001,7 +2001,7 @@ const seedProducts = [    {
       available: 41,
       price: 180,
       description: "Sneaker cleaning kit with brush, foam and microfiber cloth.",
-      pictureUrls: ["https://picsum.photos/seed/prod-099/400/400", "https://picsum.photos/seed/prod-099-alt1/400/400", "https://picsum.photos/seed/prod-099-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-sneaker-cleaner-kit/400/400", "https://picsum.photos/seed/fashion-sneaker-cleaner-kit-alt1/400/400", "https://picsum.photos/seed/fashion-sneaker-cleaner-kit-alt2/400/400"],
       categories: ["fashion", "care"],
       tags: ["cleaner", "sneakers", "care"],
       info: [
@@ -2021,7 +2021,7 @@ const seedProducts = [    {
       available: 54,
       price: 380,
       description: "500 ml stainless steel insulated water bottle, keeps cold 24h / hot 12h.",
-      pictureUrls: ["https://picsum.photos/seed/prod-100/400/400", "https://picsum.photos/seed/prod-100-alt1/400/400", "https://picsum.photos/seed/prod-100-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-insulated-water-bottle/400/400", "https://picsum.photos/seed/home-insulated-water-bottle-alt1/400/400", "https://picsum.photos/seed/home-insulated-water-bottle-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["water-bottle", "insulated", "stainless-steel"],
       info: [
@@ -2041,7 +2041,7 @@ const seedProducts = [    {
       available: 27,
       price: 1080,
       description: "10 W wireless charging pad with LED indicator and non-slip surface.",
-      pictureUrls: ["https://picsum.photos/seed/prod-101/400/400", "https://picsum.photos/seed/prod-101-alt1/400/400", "https://picsum.photos/seed/prod-101-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-wireless-charger/400/400", "https://picsum.photos/seed/tech-wireless-charger-alt1/400/400", "https://picsum.photos/seed/tech-wireless-charger-alt2/400/400"],
       categories: ["electronics", "accessories"],
       tags: ["wireless-charger", "charging", "qi"],
       info: [
@@ -2061,7 +2061,7 @@ const seedProducts = [    {
       available: 23,
       price: 360,
       description: "Quiet USB desk fan with 3 speed settings and adjustable tilt.",
-      pictureUrls: ["https://picsum.photos/seed/prod-102/400/400", "https://picsum.photos/seed/prod-102-alt1/400/400", "https://picsum.photos/seed/prod-102-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-desk-fan/400/400", "https://picsum.photos/seed/home-desk-fan-alt1/400/400", "https://picsum.photos/seed/home-desk-fan-alt2/400/400"],
       categories: ["home", "appliances"],
       tags: ["fan", "desk", "usb"],
       info: [
@@ -2081,7 +2081,7 @@ const seedProducts = [    {
       available: 11,
       price: 815,
       description: "64 inch aluminum camera tripod with ball head and quick release plate.",
-      pictureUrls: ["https://picsum.photos/seed/prod-103/400/400", "https://picsum.photos/seed/prod-103-alt1/400/400", "https://picsum.photos/seed/prod-103-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-camera-tripod/400/400", "https://picsum.photos/seed/tech-camera-tripod-alt1/400/400", "https://picsum.photos/seed/tech-camera-tripod-alt2/400/400"],
       categories: ["electronics", "photography"],
       tags: ["tripod", "camera", "photography"],
       info: [
@@ -2102,7 +2102,7 @@ const seedProducts = [    {
       available: 38,
       price: 460,
       description: "Memory foam bath mat with non-slip backing, machine washable.",
-      pictureUrls: ["https://picsum.photos/seed/prod-104/400/400", "https://picsum.photos/seed/prod-104-alt1/400/400", "https://picsum.photos/seed/prod-104-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-bath-mat/400/400", "https://picsum.photos/seed/home-bath-mat-alt1/400/400", "https://picsum.photos/seed/home-bath-mat-alt2/400/400"],
       categories: ["home", "bath"],
       tags: ["bath-mat", "memory-foam", "bathroom"],
       info: [
@@ -2122,7 +2122,7 @@ const seedProducts = [    {
       available: 20,
       price: 35,
       description: "LED lighted makeup mirror with 1x/10x magnification and touch control.",
-      pictureUrls: ["https://picsum.photos/seed/prod-105/400/400", "https://picsum.photos/seed/prod-105-alt1/400/400", "https://picsum.photos/seed/prod-105-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-makeup-mirror/400/400", "https://picsum.photos/seed/beauty-makeup-mirror-alt1/400/400", "https://picsum.photos/seed/beauty-makeup-mirror-alt2/400/400"],
       categories: ["beauty", "tools"],
       tags: ["mirror", "makeup", "led"],
       info: [
@@ -2142,7 +2142,7 @@ const seedProducts = [    {
       available: 6,
       price: 50,
       description: "3-piece hardside luggage set with spinner wheels and TSA lock.",
-      pictureUrls: ["https://picsum.photos/seed/prod-106/400/400", "https://picsum.photos/seed/prod-106-alt1/400/400", "https://picsum.photos/seed/prod-106-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/fashion-luggage-set/400/400", "https://picsum.photos/seed/fashion-luggage-set-alt1/400/400", "https://picsum.photos/seed/fashion-luggage-set-alt2/400/400"],
       categories: ["fashion", "travel"],
       tags: ["luggage", "suitcase", "travel"],
       info: [
@@ -2162,7 +2162,7 @@ const seedProducts = [    {
       available: 33,
       price: 125,
       description: "120-piece sewing kit with threads, needles, scissors and buttons.",
-      pictureUrls: ["https://picsum.photos/seed/prod-107/400/400", "https://picsum.photos/seed/prod-107-alt1/400/400", "https://picsum.photos/seed/prod-107-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-sewing-kit/400/400", "https://picsum.photos/seed/home-sewing-kit-alt1/400/400", "https://picsum.photos/seed/home-sewing-kit-alt2/400/400"],
       categories: ["home", "crafts"],
       tags: ["sewing-kit", "crafts", "repair"],
       info: [
@@ -2183,7 +2183,7 @@ const seedProducts = [    {
       available: 25,
       price: 165,
       description: "Waterproof picnic blanket with carry strap and sand-proof backing.",
-      pictureUrls: ["https://picsum.photos/seed/prod-108/400/400", "https://picsum.photos/seed/prod-108-alt1/400/400", "https://picsum.photos/seed/prod-108-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/sport-picnic-blanket/400/400", "https://picsum.photos/seed/sport-picnic-blanket-alt1/400/400", "https://picsum.photos/seed/sport-picnic-blanket-alt2/400/400"],
       categories: ["sport", "outdoor"],
       tags: ["picnic", "blanket", "outdoor"],
       info: [
@@ -2203,7 +2203,7 @@ const seedProducts = [    {
       available: 29,
       price: 115,
       description: "100-piece first aid kit for home, car and travel.",
-      pictureUrls: ["https://picsum.photos/seed/prod-109/400/400", "https://picsum.photos/seed/prod-109-alt1/400/400", "https://picsum.photos/seed/prod-109-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-first-aid-kit/400/400", "https://picsum.photos/seed/home-first-aid-kit-alt1/400/400", "https://picsum.photos/seed/home-first-aid-kit-alt2/400/400"],
       categories: ["home", "safety"],
       tags: ["first-aid", "safety", "emergency"],
       info: [
@@ -2223,7 +2223,7 @@ const seedProducts = [    {
       available: 42,
       price: 210,
       description: "Scented candle set of 4, soy wax, 8 oz each, gift boxed.",
-      pictureUrls: ["https://picsum.photos/seed/prod-110/400/400", "https://picsum.photos/seed/prod-110-alt1/400/400", "https://picsum.photos/seed/prod-110-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-candle-set/400/400", "https://picsum.photos/seed/home-candle-set-alt1/400/400", "https://picsum.photos/seed/home-candle-set-alt2/400/400"],
       categories: ["home", "decor"],
       tags: ["candle", "scented", "gift"],
       info: [
@@ -2243,7 +2243,7 @@ const seedProducts = [    {
       available: 15,
       price: 115,
       description: "45-piece household tool kit with hammer, screwdrivers, pliers and tape.",
-      pictureUrls: ["https://picsum.photos/seed/prod-111/400/400", "https://picsum.photos/seed/prod-111-alt1/400/400", "https://picsum.photos/seed/prod-111-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-tool-kit/400/400", "https://picsum.photos/seed/home-tool-kit-alt1/400/400", "https://picsum.photos/seed/home-tool-kit-alt2/400/400"],
       categories: ["home", "tools"],
       tags: ["tool-kit", "household", "repair"],
       info: [
@@ -2264,7 +2264,7 @@ const seedProducts = [    {
       available: 18,
       price: 400,
       description: "Plush pet bed with removable washable cover, non-slip bottom.",
-      pictureUrls: ["https://picsum.photos/seed/prod-112/400/400", "https://picsum.photos/seed/prod-112-alt1/400/400", "https://picsum.photos/seed/prod-112-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-pet-bed/400/400", "https://picsum.photos/seed/home-pet-bed-alt1/400/400", "https://picsum.photos/seed/home-pet-bed-alt2/400/400"],
       categories: ["home", "pets"],
       tags: ["pet-bed", "dog", "cat"],
       info: [
@@ -2284,7 +2284,7 @@ const seedProducts = [    {
       available: 31,
       price: 880,
       description: "On-ear Bluetooth headphones with built-in mic and 20h battery.",
-      pictureUrls: ["https://picsum.photos/seed/prod-113/400/400", "https://picsum.photos/seed/prod-113-alt1/400/400", "https://picsum.photos/seed/prod-113-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-bluetooth-headphones/400/400", "https://picsum.photos/seed/tech-bluetooth-headphones-alt1/400/400", "https://picsum.photos/seed/tech-bluetooth-headphones-alt2/400/400"],
       categories: ["electronics", "audio"],
       tags: ["bluetooth", "headphones", "on-ear"],
       info: [
@@ -2304,7 +2304,7 @@ const seedProducts = [    {
       available: 50,
       price: 40,
       description: "Stand-up desk calendar with daily tear-off pages and note space.",
-      pictureUrls: ["https://picsum.photos/seed/prod-114/400/400", "https://picsum.photos/seed/prod-114-alt1/400/400", "https://picsum.photos/seed/prod-114-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-desk-calendar/400/400", "https://picsum.photos/seed/home-desk-calendar-alt1/400/400", "https://picsum.photos/seed/home-desk-calendar-alt2/400/400"],
       categories: ["home", "office"],
       tags: ["calendar", "desk", "planner"],
       info: [
@@ -2324,7 +2324,7 @@ const seedProducts = [    {
       available: 13,
       price: 55,
       description: "Ceramic hair straightener with adjustable temperature up to 230°C.",
-      pictureUrls: ["https://picsum.photos/seed/prod-115/400/400", "https://picsum.photos/seed/prod-115-alt1/400/400", "https://picsum.photos/seed/prod-115-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-hair-straightener/400/400", "https://picsum.photos/seed/beauty-hair-straightener-alt1/400/400", "https://picsum.photos/seed/beauty-hair-straightener-alt2/400/400"],
       categories: ["beauty", "hair"],
       tags: ["straightener", "hair", "styling"],
       info: [
@@ -2344,7 +2344,7 @@ const seedProducts = [    {
       available: 19,
       price: 65,
       description: "Cordless water flosser with 3 modes and 4 jet tips.",
-      pictureUrls: ["https://picsum.photos/seed/prod-116/400/400", "https://picsum.photos/seed/prod-116-alt1/400/400", "https://picsum.photos/seed/prod-116-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/beauty-water-flosser/400/400", "https://picsum.photos/seed/beauty-water-flosser-alt1/400/400", "https://picsum.photos/seed/beauty-water-flosser-alt2/400/400"],
       categories: ["beauty", "oral-care"],
       tags: ["water-flosser", "oral-care", "cordless"],
       info: [
@@ -2364,7 +2364,7 @@ const seedProducts = [    {
       available: 24,
       price: 550,
       description: "Over-ear gaming headset with noise mic, RGB lights and 3.5 mm jack.",
-      pictureUrls: ["https://picsum.photos/seed/prod-117/400/400", "https://picsum.photos/seed/prod-117-alt1/400/400", "https://picsum.photos/seed/prod-117-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/tech-gaming-headset/400/400", "https://picsum.photos/seed/tech-gaming-headset-alt1/400/400", "https://picsum.photos/seed/tech-gaming-headset-alt2/400/400"],
       categories: ["electronics", "gaming"],
       tags: ["headset", "gaming", "rgb"],
       info: [
@@ -2384,7 +2384,7 @@ const seedProducts = [    {
       available: 9,
       price: 495,
       description: "Full-length wall mirror with aluminum frame and shatter-proof glass.",
-      pictureUrls: ["https://picsum.photos/seed/prod-118/400/400", "https://picsum.photos/seed/prod-118-alt1/400/400", "https://picsum.photos/seed/prod-118-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-wall-mirror/400/400", "https://picsum.photos/seed/home-wall-mirror-alt1/400/400", "https://picsum.photos/seed/home-wall-mirror-alt2/400/400"],
       categories: ["home", "decor"],
       tags: ["mirror", "wall", "full-length"],
       info: [
@@ -2404,7 +2404,7 @@ const seedProducts = [    {
       available: 33,
       price: 125,
       description: "1.7 L electric kettle with auto shut-off and boil-dry protection.",
-      pictureUrls: ["https://picsum.photos/seed/prod-119/400/400", "https://picsum.photos/seed/prod-119-alt1/400/400", "https://picsum.photos/seed/prod-119-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-electric-kettle/400/400", "https://picsum.photos/seed/home-electric-kettle-alt1/400/400", "https://picsum.photos/seed/home-electric-kettle-alt2/400/400"],
       categories: ["home", "kitchen"],
       tags: ["kettle", "electric", "kitchen"],
       info: [
@@ -2424,7 +2424,7 @@ const seedProducts = [    {
       available: 44,
       price: 430,
       description: "Large leatherette desk mat for keyboard and mouse, water-resistant.",
-      pictureUrls: ["https://picsum.photos/seed/prod-120/400/400", "https://picsum.photos/seed/prod-120-alt1/400/400", "https://picsum.photos/seed/prod-120-alt2/400/400"],
+      pictureUrls: ["https://picsum.photos/seed/home-desk-mat/400/400", "https://picsum.photos/seed/home-desk-mat-alt1/400/400", "https://picsum.photos/seed/home-desk-mat-alt2/400/400"],
       categories: ["home", "office"],
       tags: ["desk-mat", "office", "keyboard"],
       info: [
