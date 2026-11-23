@@ -16,6 +16,7 @@ import {
   getWishlist,
   UpdateWishlistAfterLogin,
 } from "./controllers/wishlistController";
+import { requireAuth } from "./middleware/auth";
 
 dotenv.config();
 
@@ -43,14 +44,15 @@ app.post("/api/signin", signinController);
 app.post("/api/signup", signupController);
 app.post("/api/products", getProducts);
 app.post("/api/product", getProductById);
-app.post("/api/cart", cartUpdate);
+// Authenticated routes: requireAuth verifies req.body.jwt and sets req.auth
+app.post("/api/cart", requireAuth, cartUpdate);
 app.post("/api/products/ids", getProductsByIds);
-app.post("/api/wishlist/add", addToWishlist);
-app.post("/api/wishlist/remove", removeFromWishlist);
-app.post("/api/wishlist/get", getWishlist);
-app.post("/api/wishlist/clear", clearWishlist);
-app.post("/api/cart/new", newCart);
-app.post("/api/wishlist/update", UpdateWishlistAfterLogin);
+app.post("/api/wishlist/add", requireAuth, addToWishlist);
+app.post("/api/wishlist/remove", requireAuth, removeFromWishlist);
+app.post("/api/wishlist/get", requireAuth, getWishlist);
+app.post("/api/wishlist/clear", requireAuth, clearWishlist);
+app.post("/api/cart/new", requireAuth, newCart);
+app.post("/api/wishlist/update", requireAuth, UpdateWishlistAfterLogin);
 
 app.listen(5000, () => {
   console.log("Server is running on port 5000");

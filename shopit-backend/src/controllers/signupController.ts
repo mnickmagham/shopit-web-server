@@ -1,20 +1,19 @@
 import User from "../models/User";
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-//signup controller
-//input:{email,password}
-//success output:{message,user,token}
-//error output:{message,error}
-export default async (req: Request, res: Response) => {
-  console.log("signup in progress...");
+import { signSessionToken } from "../middleware/auth";
+import { toPublicUser } from "../utils/sanitizeUser";
 import { rateLimit } from "../utils/rateLimit";
 
+// signup controller
+// input: { email, password }
+// success output: { user: PublicUser, token }
+export default async function signupController(req: Request, res: Response) {
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });
   }
-  const { email, password } = req.body;
 
+  const { email, password } = req.body ?? {};
 
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -37,7 +36,6 @@ import { rateLimit } from "../utils/rateLimit";
   }
 
   try {
-        .status(409)
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(409).json({ message: "User already exists" });
@@ -47,14 +45,14 @@ import { rateLimit } from "../utils/rateLimit";
     const hashedPassword = await bcrypt.hash(password, salt);
     const newUser = new User({ email, password: hashedPassword });
     await newUser.save();
-    const token = jwt.sign(
-      { userId: newUser._id, email: newUser.email },
-      process.env.JWT_SECRET as string,
-      { expiresIn: "24h" }
-    );
+    const token = signSessionToken({
+      userId: String(newUser._id),
+      email: newUser.email,
+    });
 
-    res.status(200).json({ user: newUser, token });
+    return res.status(200).json({ user: toPublicUser(newUser), token });
   } catch (error) {
-    res.status(500).json({ message: "Internal server error", error: error });
+    console.error("signup error:", error);
+    return res.status(500).json({ message: "Internal server error" });
   }
-};
+}
