@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import Product from "../models/Product";
 import User from "../models/User";
 import jwt from "jsonwebtoken";
+import { authUser } from "../middleware/auth";
 export async function cartUpdate(req: Request, res: Response) {
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });

@@ -8,17 +8,36 @@ import jwt from "jsonwebtoken";
 //error output:{message,error}
 export default async (req: Request, res: Response) => {
   console.log("signup in progress...");
+import { rateLimit } from "../utils/rateLimit";
 
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });
   }
   const { email, password } = req.body;
+
+
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!email || !password) {
+    return res
+      .status(400)
+      .json({ message: "Email and password are required" });
+  }
+  if (!EMAIL_RE.test(String(email))) {
+    return res.status(400).json({ message: "Invalid email address" });
+  }
+
+  // Rate-limit account creation by IP.
+  const rateKey = `signup:${req.ip ?? "unknown"}`;
+  const rate = rateLimit(rateKey, { max: 5, windowMs: 60_000 });
+  if (!rate.allowed) {
+    return res
+      .status(429)
+      .json({ message: "Too many attempts. Try again later." });
+  }
+
   try {
-    if (!email || !password) {
-      return res
         .status(409)
-        .json({ message: "Email and password are required" });
-    }
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(409).json({ message: "User already exists" });

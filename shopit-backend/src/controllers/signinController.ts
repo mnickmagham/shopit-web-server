@@ -7,6 +7,7 @@ import jwt from "jsonwebtoken";
 //success output:{message,user,token}
 //error output:{message,error}
 export default async (req: Request, res: Response) => {
+import { rateLimit } from "../utils/rateLimit";
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });
   }
@@ -20,8 +21,11 @@ export default async (req: Request, res: Response) => {
         password: string;
       };
 
+
       if (!decoded.email || !decoded.password) {
         return res.status(400).json({ message: "Invalid token" });
+  const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
       }
       email = decoded.email;
       password = decoded.password;
@@ -33,6 +37,20 @@ export default async (req: Request, res: Response) => {
         .json({ message: "Email and password are required" });
     }
     const existingUser = await User.findOne({ email });
+
+  if (!EMAIL_RE.test(String(email))) {
+    return res.status(400).json({ message: "Invalid email address" });
+  }
+
+  // Rate-limit password attempts by IP so an attacker cannot lock out a
+  // specific account by guessing its email.
+  const rateKey = `signin:${req.ip ?? "unknown"}`;
+  const rate = rateLimit(rateKey, { max: 5, windowMs: 60_000 });
+  if (!rate.allowed) {
+    return res
+      .status(429)
+      .json({ message: "Too many attempts. Try again later." });
+  }
 
     if (!existingUser) {
       return res.status(400).json({ message: "User not found" });
