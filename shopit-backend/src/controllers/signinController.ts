@@ -51,6 +51,19 @@ import { rateLimit } from "../utils/rateLimit";
       .status(429)
       .json({ message: "Too many attempts. Try again later." });
   }
+  if (!EMAIL_RE.test(String(email))) {
+    return res.status(400).json({ message: "Invalid email address" });
+  }
+
+  // Rate-limit password attempts by IP so an attacker cannot lock out a
+  // specific account by guessing its email.
+  const rateKey = `signin:${req.ip ?? "unknown"}`;
+  const rate = rateLimit(rateKey, { max: 5, windowMs: 60_000 });
+  if (!rate.allowed) {
+    return res
+      .status(429)
+      .json({ message: "Too many attempts. Try again later." });
+  }
 
     if (!existingUser) {
       return res.status(400).json({ message: "User not found" });
