@@ -78,23 +78,17 @@ jest.mock("../../models/User", () => ({
   },
 }));
 
-type CartReq = {
-  auth: { userId: string; email: string } | null;
-  body: unknown;
-  method?: string;
-};
-const authUserMock = jest.fn((req: CartReq, res: any) => {
-  if (!req.auth) {
-    res.status(401).json({ message: "Authentication required" });
-    return null;
-  }
-  return req.auth;
-});
 jest.mock("../../middleware/auth", () => ({
-  authUser: authUserMock,
+  authUser: jest.fn((req: any, res: any) => {
+    if (!req.auth) {
+      res.status(401).json({ message: "Authentication required" });
+      return null;
+    }
+    return req.auth;
+  }),
 }));
 
-import { cartUpdate } from "../cartUpdate";
+import { cartUpdate, newCart } from "../cartUpdate";
 
 function makeRes() {
   const json = jest.fn().mockReturnThis();
@@ -162,5 +156,63 @@ describe("cartUpdate", () => {
       res as unknown as Response
     );
     expect(res.status).toHaveBeenCalledWith(401);
+  });
+
+  it("rejects negative quantity with 400", async () => {
+    const res = makeRes();
+    await cartUpdate(
+      makeReq(authPayload, { productId: "p1", quantity: -1 }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(400);
+    const user = cartUsers[0];
+    expect(user.cart).toEqual([]);
+  });
+
+  it("rejects missing productId with 400", async () => {
+    const res = makeRes();
+    await cartUpdate(
+      makeReq(authPayload, { productId: "", quantity: 1 }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(400);
+  });
+});
+
+describe("newCart", () => {
+  it("rejects non-array cart with 400", async () => {
+    const res = makeRes();
+    await newCart(
+      makeReq(authPayload, { cart: "not-array" }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(400);
+  });
+
+  it("rejects cart item with missing productId with 400", async () => {
+    const res = makeRes();
+    await newCart(
+      makeReq(authPayload, { cart: [{ productId: "", quantity: 1 }] }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(400);
+  });
+
+  it("rejects cart item with negative quantity with 400", async () => {
+    const res = makeRes();
+    await newCart(
+      makeReq(authPayload, { cart: [{ productId: "p1", quantity: -2 }] }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(400);
+  });
+
+  it("accepts valid cart items and replaces cart", async () => {
+    const res = makeRes();
+    await newCart(
+      makeReq(authPayload, { cart: [{ productId: "p1", quantity: 3 }] }) as Request,
+      res as unknown as Response
+    );
+    expect(res.status).toHaveBeenCalledWith(200);
   });
 });

@@ -1,3 +1,13 @@
+### Change: version 0.1.9 date 2026-11-23
+
+Fix reliability and validation issues reported in backend review.
+
+- config/db.ts: connectDB() now throws instead of process.exit(1) so serverless can respond 503
+- models/Wishlist.ts: added unique index on userId to prevent duplicate wishlists
+- controllers/cartUpdate.ts: reject quantity < 0 with 400; validate newCart items (productId + quantity >= 0)
+- Tests: db.connectDB throws (not exits), Wishlist unique index, cartUpdate negative quantity, newCart item validation — 43 tests passing
+
+
 ### Change: version 0.1.8 date 2026-11-22
 
 Auth hardening and test coverage for the ShopIt backend.
