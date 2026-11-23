@@ -1,5 +1,6 @@
 "use client";
-import { clearError, setError } from "@/store/ui";
+import { clearError, setError, setSuccess, setIsLoggedIn } from "@/store/ui";
+
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
@@ -14,7 +15,9 @@ export const SignUpForm = () => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const dispatch = useDispatch();
+  const success = useSelector((state: any) => state.ui.success);
   const error = useSelector((state: any) => state.ui.error);
+
   const handleSignUp = async () => {
     setIsLoading(true);
     const res: any = await handleSignup(email, password);
@@ -25,9 +28,10 @@ export const SignUpForm = () => {
     }
     console.log(res);
     Cookies.set("session", JSON.stringify({ token: res.token }));
+    dispatch(setSuccess("کاربر با موفقیت ایجاد شد"));
+    dispatch(setIsLoggedIn(true));
     dispatch(setError(""));
     dispatch(setUser(res));
-    setIsLoading(false);
   };
 
   return (
@@ -58,9 +62,8 @@ export const SignUpForm = () => {
             <Image src={EyeIcon} alt="eye" />
           </div>
         </div>
-        <div className="mb-4 justify-center items-center flex text-center font-semibold text-red-500 ">
-          {error && <div className="text-red-500">{error}</div>}
-        </div>
+        {success && <div className="text-green-500">{success}</div>}
+        {error && <div className="text-red-500">{error}</div>}
       </div>
       <div className="font-semibold text-gray-400 mb-10">
         اطلاعات شخصی شما برای پردازش سفارش شما استفاده می‌شود، و پشتیبانی از

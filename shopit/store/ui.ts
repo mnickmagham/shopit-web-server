@@ -4,6 +4,7 @@ interface UiSlice {
   isLoading: boolean;
   isLoggedIn: boolean;
   error: string;
+  success: string;
   loginSignup: boolean;
   productListShow: "col";
 }
@@ -12,6 +13,7 @@ const initialState = {
   isLoading: false,
   isLoggedIn: false,
   error: "",
+  success: "",
   loginSignup: true,
   productListShow: "col",
   sorting: "close",
@@ -29,17 +31,21 @@ const uiSlice = createSlice({
     setIsLoggedIn: (state, action) => {
       state.isLoggedIn = action.payload;
     },
+    setSuccess: (state, action) => {
+      state.success = action.payload;
+    },
     clearError: (state) => {
       state.error = "";
-    },
-    loginSignup: (state, action) => {
-      state.loginSignup = action.payload;
     },
     clearAll: (state) => {
       state.isLoading = false;
       state.error = "";
+      state.success = "";
       state.isLoggedIn = false;
       state.productListShow = "col";
+    },
+    loginSignup: (state, action) => {
+      state.loginSignup = action.payload;
     },
     setProductListShow: (state, action) => {
       state.productListShow = action.payload;
@@ -53,6 +59,7 @@ const uiSlice = createSlice({
 export const {
   setIsLoading,
   setError,
+  setSuccess,
   clearError,
   clearAll,
   setIsLoggedIn,
